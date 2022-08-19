@@ -1,8 +1,8 @@
 from flask import Flask, jsonify
-from resource.movie import movie
-from resource.genre import genre
-from resource.trending import trending
-from resource.tv import tv
+from api.movie import movie
+from api.genre import genre
+from api.trending import trending
+from api.tv import tv
 from cache import Cache
 
 app = Flask(__name__)
